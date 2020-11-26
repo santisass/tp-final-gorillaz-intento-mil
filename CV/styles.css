@@ -1,0 +1,227 @@
+.index {
+    background-color: turquoise;
+    width: 100%;
+    height: 35px;
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+}
+
+.cajatexto h1 {
+    font-family: 'Henny Penny', cursive;
+}
+
+
+
+.links {
+    text-decoration: none;
+    padding: 6px;
+    display: flex;
+    border: 5px solid transparent;
+    background-color: white;
+    border-radius: 30%;
+    float: right;
+    margin: 5px;
+    height: 70px;
+    width: 80px;
+    align-items: center;
+
+}
+
+.body {
+    padding: 10px;
+}
+
+
+ 
+.navbar-brand {
+    font-family: 'Acme', sans-serif;
+}
+
+header {
+    z-index: 10;
+    width: 100%;
+}
+
+
+
+.cajatexto img {
+    width: 180px;
+    height: 180px;
+    float: left;
+    border-radius: 50%;
+    padding: 10px;
+
+    
+}
+
+.padre {
+    background-color: tomato;
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.padre h1 {
+    font-family: 'Henny Penny', cursive;
+    color: white;
+}
+
+.padre p {
+    font-family: 'Acme', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.padre1 {
+        background-color: tomato;
+        height: 400px;
+        width: 700px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+        border-radius: 5%;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+}
+
+.hijo {
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    padding: 5px;
+
+}
+
+.hijo p {
+    font-family: 'Acme', sans-serif;
+}
+
+.hijo img {
+    height: 90px;
+    width: 90px;
+
+}
+
+body {
+   background-image: url(./images/plastic\ beach\ fondo.png); 
+   background-attachment: fixed;
+   background-position: center;
+  
+}
+
+
+.cajatexto{
+    background-color: tomato;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Acme', sans-serif;
+    padding: 10px;
+}
+
+
+#musica {
+    font-family: 'Henny Penny', cursive;
+    background-color: tomato;
+        width: 700px;
+        height: 400px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        border-radius: 5%;
+        color: white;
+        font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .padre {
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 100%;
+        align-content: center;
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+    }
+
+    #musica {
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 100%;
+        align-content: center;
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+    }
+    .cajatexto {
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 100%;
+        align-content: center;
+        height: 100%;
+        width: 100%;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .padre1 {
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 100%;
+        align-content: center;
+        height: 1300px;
+        width: 100%;
+        
+    }
+
+    .hijo img {
+        max-width: 100%;
+        max-height: 100%;
+        
+    }
+
+    .index img {
+        width: 40%;
+        
+    
+    }
+}
+
+@media screen and (max-width: 400px){
+    .padre{ 
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .padre1 {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .index {
+        display: inline;
+        position: relative;
+    
+    }
+
+    #musica {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
